@@ -6,7 +6,7 @@ import (
 	"github.com/gruntwork-io/terratest/modules/terraform"
 )
 
-func TestTerraformHelloWorldExample(t *testing.T) {
+func TestTerraformEventRuleCreation(t *testing.T) {
 	terraformOptions := &terraform.Options{
 		TerraformDir: "../",
 	}
